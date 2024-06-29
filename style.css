@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  align-items: center;
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: rgb(0, 200, 255);
+  position: fixed;
+  margin: 0;
+}
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+.ataaservices {
+  font-family: "Aref Ruqaa", sans-serif;
+  margin-top: -10px;
+  cursor: default;
+}
+.img-Logo {
+  margin-left: 20px;
+  margin-right: 40px;
+  mix-blend-mode: normal;
+  transition: 300ms;
+}
+.img-Logo:hover {
+  transform: scale(1.03);
+  transition: 300ms;
+}
+nav {
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  cursor: default;
+}
+.Services {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 200ms;
+}
+.Services:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+.Home {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 200ms;
+}
+.Home:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+.Contact-Us {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 200ms;
+}
+.Contact-Us:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+.welcom-section {
+  background: #0096ff;
+  padding: 310px 100px;
+  direction: rtl;
+  color: white;
+  font-family: "cairo", sans-serif;
+}
+.welcoming {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: -100px;
+}
+.WZE {
+  font-weight: 700;
+  font-size: 2em;
+}
+.khadmat-U8 {
+  color: rgb(164, 255, 191);
+}
+.services-section {
+  background: #c2e4ff;
+  direction: rtl;
+  font-family: "cairo", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cards-Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+  font-size: 2.3em;
+  font-weight: 700;
+  margin-top: 30px;
+  color: rgb(71, 184, 184);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 40px;
+  border: #33b5cc solid;
+  height: 270px;
+  width: 600px;
+  color: #248a9c;
+  padding-left: 20px;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.card-img {
+  border-bottom-right-radius: 37px;
+  border-top-right-radius: 37px;
+  margin-left: 40px;
+}
+dt {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: -15px;
+  margin-bottom: 10px;
+}
