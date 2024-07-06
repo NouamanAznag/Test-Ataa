@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: var(--header-color);
+  margin: 0;
+  cursor: default;
+  transition: 200ms;
+}
+
+#icon {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 200ms;
+  position: relative;
+  top: 10px;
+  mix-blend-mode: luminosity;
+}
+
+#icon:hover {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  font-family: "Changa", sans-serif;
+  transition: 200ms;
+}
+
+.ataaservices {
+  font-family: "Changa", sans-serif;
+  cursor: default;
+  margin-right: 30px;
+  transition: 200ms;
+}
+
+.img-Logo {
+  mix-blend-mode: normal;
+  transition: 300ms;
+}
+
+.img-Logo:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+
+
+nav {
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+  cursor: default;
+  position: relative;
+  transition: 200ms;
+  align-items: center;
+  align-content: center;
+  margin-top: -20px;
+}
+
+.Services {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.Services:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+
+.Home {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.Home:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+
+.Contact-Us {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.Contact-Us:hover {
+  margin: 0 10px;
+  text-decoration: underline;
+  color: blanchedalmond;
+  transform: scale(1.04);
+  transition: 200ms;
+}
+
+body {
+  background-color: var(--section-body-color);
+}
+
+section {
+  direction: rtl;
+  font-family: "cairo", sans-serif;
+  transition: 200ms;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--section-body-color);
+  cursor: default;
+}
+
+.products-title {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cairo", sans-serif;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.products-title1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cairo", sans-serif;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+  color: var(--title-color);
+}
+
+.product-img {
+  display: flex;
+  background-color: var(--product-img-color);
+  justify-content: center;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+.product,
+.school-product {
+  display: none;
+}
+
+.school-product.active {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  background-color: var(--product-img-color);
+  justify-content: center;
+  border-radius: 20px;
+  border: var(--product-border-hr-title-color) solid 1px;
+  opacity: 1;
+}
+
+.product.active {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 250px;
+  background-color: var(--product-img-color);
+  justify-content: center;
+  border-radius: 20px;
+  border: var(--product-border-hr-title-color) solid 1px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  margin-top: -20px;
+  background-color: var(--product-img-color);
+  border-radius: 20px;
+  color: var(--title-color);
+}
+
+.imgs {
+  height: 220px;
+  width: 200px;
+  margin-bottom: 80px;
+  transition: 200ms;
+}
+
+.imgs:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+}
+
+.products {
+  display: grid;
+  grid-gap: 30px;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  padding: 10px 20px;
+  direction: rtl;
+}
+
+hr {
+  border: var(--title-color) solid 0.5px;
+  transition: 200ms;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#ShowMoreBtn {
+  color: var(--btn-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: none;
+}
+
+#ShowLessBtn {
+  display: none;
+  /* إخفاء زر "Show less" افتراضياً */
+  color: var(--btn-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: none;
+}
+
+#ShowMoreBtn1 {
+  color: var(--btn-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: none;
+}
+
+#ShowLessBtn1 {
+  display: none;
+  /* إخفاء زر "Show less" افتراضياً */
+  color: var(--btn-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0096ff;
+  text-decoration: underline;
+  transition: 200ms;
+}
+
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  transition: 200ms;
+}
+
+.footer-title span {
+  color: #7399ff;
+  transition: 200ms;
+}
+
+.footer .social-icons a {
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+  transition: 200ms;
+}
+
+footer {
+  font-family: "Cairo", sans-serif;
+  transition: 200ms;
+  background-color: var(--footer-color);
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  transition: 200ms;
+}
+
+.social-icons {
+  cursor: default;
+  font-size: 20px;
+  transition: 200ms;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+:root {
+  --header-color: rgb(0, 200, 255);
+  --section-body-color: #fff;
+  --products-color: #fff;
+  --product-img-color: #fff;
+  --product-border-hr-title-color: black;
+  --footer-color: #004d8b;
+  --btn-color: rgb(71, 184, 184);
+  --title-color: black;
+}
+.dark-theme {
+  --header-color: rgb(0, 69, 88);
+  --section-body-color: rgb(58, 58, 58);
+  --products-color: #4d4d4d;
+  --product-img-color: #4d4d4d;
+  --product-border-hr-title-color: black;
+  --footer-color: #000a41;
+  --btn-color: aqua;
+  --title-color: white;
+}
